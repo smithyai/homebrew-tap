@@ -3,7 +3,7 @@ cask "aasdd-cli" do
   name "aasdd-cli"
   desc "AASDD CLI — verify and scaffold AASDD specs"
   homepage "https://github.com/smithyai/aasdd-cli"
-  version "0.1.5"
+  version "0.1.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "aasdd-cli" do
   on_macos do
     on_intel do
       url "https://github.com/smithyai/aasdd-cli/releases/download/v#{version}/aasdd-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "3c469009db11f68ce29ab3649f6c8ce496df4d899934b39dd6ef19d9a933b0ae"
+      sha256 "bb31c898ddc59a6a76747bec309ca6f3f04e14644f4d58c679739d6ed792dd45"
     end
     on_arm do
       url "https://github.com/smithyai/aasdd-cli/releases/download/v#{version}/aasdd-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "39181d0b187d106dfff8ed540e95f0d0f95ea7fb3dc06758d662cad9281fd53c"
+      sha256 "47f05ea90c2e71d9f546b4176499352e41405ea3aa9c185087f3081e80deeb2c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/smithyai/aasdd-cli/releases/download/v#{version}/aasdd-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "deba533d34fd5503159d0e0f6875dfe55aeaabc0bdff7a6b28f68cea9aca5091"
+      sha256 "12b978ac67ab3b77ddff6945103b2986d977a03093bc58ad575b21e8350cffa3"
     end
     on_arm do
       url "https://github.com/smithyai/aasdd-cli/releases/download/v#{version}/aasdd-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "55bc01333adc8f0d777ed7cb0fe629e8e105ebed9f14e76b723aa980e25a6fdf"
+      sha256 "107666462f72a2ff9e44e82016781ce8a1742387e9d29cd2f3955bf8ddd13008"
     end
   end
 
